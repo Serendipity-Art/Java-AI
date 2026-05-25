@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(javac -d out src/com/javabetter/basicgrammar/*.java)",
+      "Bash(java -cp out com.javabetter.basicgrammar.Main)",
+      "Bash(mv \"basic-grammar/basic-grammar.iml\" \"basic-grammar/Java基础语法\\(basic-grammar\\).iml\")",
+      "Bash(mv \"basic-grammar\" \"Java基础语法\\(basic-grammar\\)\")",
+      "Bash(mv \"array-string/array-string.iml\" \"array-string/数组和字符串\\(array-string\\).iml\")",
+      "Bash(mv \"array-string\" \"数组和字符串\\(array-string\\)\")",
+      "Bash(mv \"oop/oop.iml\" \"oop/面向对象\\(oop\\).iml\")",
+      "Bash(mv \"oop\" \"面向对象\\(oop\\)\")",
+      "Bash(mv \"exception/exception.iml\" \"exception/异常处理\\(exception\\).iml\")",
+      "Bash(mv \"algorithms/algorithms.iml\" \"algorithms/数据结构与算法\\(algorithms\\).iml\")",
+      "Bash(mv \"algorithms\" \"数据结构与算法\\(algorithms\\)\")",
+      "Bash(mv \"design-patterns/design-patterns.iml\" \"design-patterns/设计模式\\(design-patterns\\).iml\")",
+      "Bash(mv \"design-patterns\" \"设计模式\\(design-patterns\\)\")",
+      "Bash(mv \"maven/maven.iml\" \"maven/Maven\\(maven\\).iml\")",
+      "Bash(rtk ls *)",
+      "Bash(bash *)",
+      "Bash(java -cp out com.javabetter.basicgrammar.主类)"
+    ]
+  }
+}

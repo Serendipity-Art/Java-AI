@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd \\\"E:/这一次一定认真学Java/Java基础语法(basic-grammar)\\\" && java -cp out com.javabetter.basicgrammar.主类 && echo \\\"=== run OK ===\\\"\",\"description\":\"Run basic-grammar main class\"}",
-  "error": "Exit code 1\n����: ���� com.javabetter.basicgrammar.���� ���Ҳ��� main ����, �뽫 main ��������Ϊ:\n   public static void main(String[] args)\n���� JavaFX Ӧ�ó����������չjavafx.application.Application",
-  "timestamp": "2026-05-24T06:49:18.389Z",
-  "retry_count": 1
-}

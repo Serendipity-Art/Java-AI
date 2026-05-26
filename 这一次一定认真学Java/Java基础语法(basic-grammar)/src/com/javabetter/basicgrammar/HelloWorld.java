@@ -8,6 +8,6 @@ package com.javabetter.basicgrammar;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.print("HelloWorld");
+        System.out.println("这是我和AI团队合作开发的代码！");
     }
 }

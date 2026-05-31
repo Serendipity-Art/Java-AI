@@ -4,13 +4,9 @@ package com.javabetter.arraystring;
  * 正在努力学习Java的小白
  *
  * @author Serendipity
- * @date 2026/5/29
+ * @date 2026/5/31
  */
-public class StringSrcAnalysis{
-    //String类的声明,String类被final修饰,不可以被继承
-    //“第一，String 类是 final 的，意味着它不能被子类继承。这些知识我们讲面向对象编程的时候都会讲到，三妹你不用担心。”
-    //“第二，String 类实现了 Serializable 接口，意味着它可以序列化（后面同样会讲，戳链接可跳转）。”
-    //“第三，String 类实现了 Comparable 接口，意味着最好不要用‘==’来比较两个字符串是否相等，而应该用 compareTo() 方法去比较。”
+public class substring {
     //提取字符串
     public static void main(String[] args) {
         //二.String的substring方法
@@ -32,24 +28,6 @@ public class StringSrcAnalysis{
         String str3 = "1234-5678-9012-3456";
         String[] parts = str3.split("-");             // 将字符串按照连字符分隔成四个部分
         String last4Digits = parts[3].substring(1);  // 提取最后一个部分的后三位数字
-        System.out.println(last4Digits);             // 输出 "456"
+        System.out.println(last4Digits);
     }
 }
-class HashCodeExample {
-    public static void main(String[] args) {
-        //模拟String的hashcode()方法
-        String text = "沉默王二";
-        int hashCode = computeHashCode(text);
-        System.out.println("字符串 \"" + text + "\" 的哈希码是: " + hashCode);
-        System.out.println("String 的 hashCode " + text.hashCode());
-    }
-    public static int computeHashCode(String text) {
-        int h = 0;
-        for (int i = 0; i < text.length(); i++) {
-            h = 31 * h + text.charAt(i);
-        }
-        return h;
-    }
-}
-
-

@@ -451,18 +451,17 @@ Arrays工具类的使用
 如:第一层第一个格挡中有1*1个鸡蛋;
 
 ```java
-    public static void main(String[] args) {
-        int[][] array = new int[3][6];
-        int sum = 0;
-        for (int i = 0; i < 3; i++) {
-            System.out.println("-------第" + (i + 1) + "层货架-------");
-            for (int j = 0; j < 6; j++) {
-                int num = (i + 1) * (j + 1);
-                sum += num;
-                System.out.println("第" + (j + 1) + "个格挡鸡蛋个数:" + num);
-            }
+public static void main(String[] args) {
+    int[][] array = new int[3][6];
+    int sum = 0;
+    for (int i = 0; i < 3; i++) {
+        System.out.println("-------第" + (i + 1) + "层货架-------");
+        for (int j = 0; j < 6; j++) {
+            int num = (i + 1) * (j + 1);
+            sum += num;
+            System.out.println("第" + (j + 1) + "个格挡鸡蛋个数:" + num);
         }
-        System.out.println("鸡蛋总数" + sum);
     }
+    System.out.println("鸡蛋总数" + sum);
+}
 ```
-
